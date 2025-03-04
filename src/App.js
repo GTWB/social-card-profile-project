@@ -17,7 +17,10 @@ export default App;
 function ProfileImage() {
   return (
     <div className="imgProfile">
-      <img src="/assets/images/avatar-jessica.jpeg" alt="jessica" />
+      <img
+        src={`${process.env.PUBLIC_URL}/assets/images/avatar-jessica.jpeg`}
+        alt="jessica"
+      />
     </div>
   );
 }
