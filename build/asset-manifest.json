@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/social-card-profile-project/static/css/main.d74567e4.css",
-    "main.js": "/social-card-profile-project/static/js/main.e8972d42.js",
+    "main.css": "/social-card-profile-project/static/css/main.cb9011bb.css",
+    "main.js": "/social-card-profile-project/static/js/main.657df684.js",
     "index.html": "/social-card-profile-project/index.html",
-    "main.d74567e4.css.map": "/social-card-profile-project/static/css/main.d74567e4.css.map",
-    "main.e8972d42.js.map": "/social-card-profile-project/static/js/main.e8972d42.js.map"
+    "main.cb9011bb.css.map": "/social-card-profile-project/static/css/main.cb9011bb.css.map",
+    "main.657df684.js.map": "/social-card-profile-project/static/js/main.657df684.js.map"
   },
   "entrypoints": [
-    "static/css/main.d74567e4.css",
-    "static/js/main.e8972d42.js"
+    "static/css/main.cb9011bb.css",
+    "static/js/main.657df684.js"
   ]
 }
