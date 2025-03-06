@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/social-card-profile-project/static/css/main.cb9011bb.css",
+    "main.js": "/social-card-profile-project/static/js/main.657df684.js",
+    "index.html": "/social-card-profile-project/index.html",
+    "main.cb9011bb.css.map": "/social-card-profile-project/static/css/main.cb9011bb.css.map",
+    "main.657df684.js.map": "/social-card-profile-project/static/js/main.657df684.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb9011bb.css",
+    "static/js/main.657df684.js"
+  ]
+}
