@@ -6,6 +6,7 @@ const data = [
   { name: "YouTube", url: "https://www.youtube.com/" },
   { name: "Instagram", url: "https://www.instagram.com/" },
   { name: "Twitter", url: "https://x.com/" },
+  { name: "Facebook", url: "https://www.facebook.com/" },
 ];
 
 function App() {
