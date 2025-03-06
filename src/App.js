@@ -52,7 +52,7 @@ function PersonalInfo() {
   );
 }
 
-/* SOCIAL LINK */
+/* SOCIAL LINK  COMPONENT*/
 
 function SocialLink() {
   return (
