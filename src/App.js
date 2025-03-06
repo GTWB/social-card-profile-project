@@ -1,3 +1,13 @@
+const data = [
+  {
+    name: "GitHub",
+    url: "https://github.com/GTWB",
+  },
+  { name: "YouTube", url: "https://www.youtube.com/" },
+  { name: "Instagram", url: "https://www.instagram.com/" },
+  { name: "Twitter", url: "https://x.com/" },
+];
+
 function App() {
   return (
     <div className="app">
@@ -46,11 +56,11 @@ function PersonalInfo() {
 function SocialLink() {
   return (
     <div className="socialContainer">
-      <button>GitHub</button>
-      <button>Linkedin</button>
-      <button>Twitter</button>
-      <button>Instagram</button>
-      <button>YouTube</button>
+      {data.map((obj) => (
+        <button onClick={() => (window.location.href = obj.url)}>
+          {obj.name}
+        </button>
+      ))}
     </div>
   );
 }
