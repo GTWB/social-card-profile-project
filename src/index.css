@@ -10,6 +10,7 @@
 
 p {
   font-size: 14px;
+  text-align: center;
 }
 
 a {
@@ -24,6 +25,7 @@ a {
 
 .app {
   position: relative;
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -32,7 +34,7 @@ a {
   gap: 0.5rem;
   align-items: center;
   background-color: hsl(0, 0%, 12%);
-  width: 320px;
+  max-width: 320px;
   padding: 1.5rem;
   border-radius: 10px;
 }
@@ -70,4 +72,24 @@ button {
 button:hover {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 12%);
+}
+
+/* RESPONSIVE */
+
+@media (orientation: landscape) {
+  #root {
+    overflow: auto;
+  }
+
+  .app {
+    width: 90%;
+    max-height: 80%;
+    overflow: auto;
+  }
+}
+
+@media (max-width: 920px) {
+  .app {
+    max-width: 80%;
+  }
 }
